@@ -1,0 +1,120 @@
+
+
+.home {
+  min-height: 85vh;
+  background-color: #f2f9fe;
+  /* display: flex;
+  align-items: center; */
+}
+
+.home-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 70px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+
+/* Left Content */
+
+.home-content {
+  flex: 1;
+  max-width: 620px;
+  
+}
+
+.home-greeting {
+  color: #4f46e5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.home-content h1 {
+  color: #1e1b4b;
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
+
+.home-content h2 {
+  color: #312e81;
+  font-size: 34px;
+  line-height: 1.2;
+  margin: 0 0 24px;
+}
+
+.home-description {
+  color: #334155;
+  font-size: 21px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.home-pitch {
+  color: #64748b;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 570px;
+  margin-bottom: 32px;
+}
+
+
+/* Buttons */
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.home-buttons a {
+  display: inline-block;
+  padding: 13px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #ef9330;
+}
+
+.btn-secondary {
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  background-color: transparent;
+}
+
+.btn-secondary:hover {
+  background-color: #ef9330;
+  color:white
+}
+
+
+/* Developer Image */
+
+/* .home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.home-image img {
+  width: 100%;
+  max-width: 480px;
+  height: 460px;
+  display: block;
+  border-radius: 58px;
+}
