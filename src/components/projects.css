@@ -1,0 +1,157 @@
+.projects {
+  min-height: 80vh;
+  background-color: #f2f9fe;
+  padding: 100px 60px;
+  scroll-margin-top: 90px;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Heading */
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.projects-heading > p:first-child {
+  color: #4f46e5;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 14px;
+}
+
+.projects-heading h2 {
+  color: #1e1b4b;
+  font-size: 40px;
+  margin: 0 0 16px;
+}
+
+.projects-heading p:last-child {
+  color: #64748b;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+/* Project Card */
+
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  background-color: #ffffff;
+  padding: 35px;
+
+  border: 1px solid #dbeafe;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(30, 27, 75, 0.06);
+}
+
+
+/* Project Image */
+
+.project-image {
+  flex: 1;
+}
+
+.project-image img {
+  width: 100%;
+  display: block;
+
+  border-radius: 12px;
+}
+
+
+/* Project Content */
+
+.project-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.project-content h3 {
+  color: #1e1b4b;
+  font-size: 30px;
+  margin: 0 0 18px;
+}
+
+.project-content > p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 0 24px;
+}
+
+
+/* Technologies */
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.project-technologies span {
+  background-color: #eef2ff;
+  color: #3730a3;
+
+  padding: 8px 13px;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* Buttons */
+
+.project-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.project-buttons a {
+  display: inline-block;
+
+  padding: 11px 20px;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.project-buttons a:first-child {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.project-buttons a:first-child:hover {
+  background-color: #ef9330;
+}
+
+.project-buttons a:last-child {
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  background-color: transparent;
+}
+
+.project-buttons a:last-child:hover {
+  background-color: #ffddbe;
+}
